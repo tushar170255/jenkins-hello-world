@@ -1,11 +1,12 @@
 # include<iostream>
 #include <bits/stdc++.h>
+
 using namespace std;
 
-void main()
+int main()
 {
-    cout<<"hello world"<<"\n";
-    return;
+    cout<<"hello world body brogg"<<"\n";
+    return 0;
 }
 
 
