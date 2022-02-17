@@ -1,0 +1,15 @@
+pipeline{
+    agent any
+    stage('build')
+    {
+        steps{
+            sh 'g++ main.c++'
+            sh './a.out'
+        }
+    }
+    stage('test')
+    {
+        sh 'g++ main2.c++'
+        sh './a.out'
+    }
+}
