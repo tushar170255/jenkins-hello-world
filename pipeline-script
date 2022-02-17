@@ -10,7 +10,8 @@ pipeline{
     }
     stage('test')
     {
+        steps{
         sh 'g++ main2.c++'
         sh './a.out'
-    }
+    }}
 }}
